@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HalamanutamaActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        android:text="Main Menu"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/daftarhotelbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daftar Hotel" />
+
+    <Button
+        android:id="@+id/daftarkamarbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Daftar Kamar" />
+
+    <Button
+        android:id="@+id/bookingpagebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Booking" />
+
+    <Button
+        android:id="@+id/logoutbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Out" />
+
+</LinearLayout>
